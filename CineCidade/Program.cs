@@ -9,3 +9,5 @@ string cupom = Console.ReadLine()!;
 
 Console.Write("Digite a idade do cliente: ");
 int idade = int.Parse(Console.ReadLine()!);
+
+decimal custoBruto = 5 + (quantidadeIngressos * 25);
