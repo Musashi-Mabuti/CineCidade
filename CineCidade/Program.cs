@@ -22,3 +22,5 @@ if (cupom.Equals("CINEMA10", StringComparison.OrdinalIgnoreCase))
 decimal valorFinal = custoBruto - desconto;
 
 string nomeFormatado = nome.ToUpper();
+
+bool elegivelSessaoNoturna = quantidadeIngressos > 1 && idade >= 18;
