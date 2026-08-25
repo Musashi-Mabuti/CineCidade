@@ -11,3 +11,10 @@ Console.Write("Digite a idade do cliente: ");
 int idade = int.Parse(Console.ReadLine()!);
 
 decimal custoBruto = 5 + (quantidadeIngressos * 25);
+
+decimal desconto = 0;
+
+if (cupom.Equals("CINEMA10", StringComparison.OrdinalIgnoreCase))
+{
+    desconto = custoBruto * 0.10m;
+}
