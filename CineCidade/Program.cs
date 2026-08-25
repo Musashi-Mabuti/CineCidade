@@ -28,6 +28,6 @@ bool elegivelSessaoNoturna = quantidadeIngressos > 1 && idade >= 18;
 Console.WriteLine();
 Console.WriteLine("===== CINECIDADE =====");
 Console.WriteLine($"Cliente: {nomeFormatado}");
-Console.WriteLine($"Valor bruto: {custoBruto}");
-Console.WriteLine($"Valor final: {valorFinal}");
+Console.WriteLine($"Valor bruto: R${custoBruto:F2}");
+Console.WriteLine($"Valor final: R${valorFinal:F2}");
 Console.WriteLine($"Elegível para Sessão Noturna: {elegivelSessaoNoturna}");
