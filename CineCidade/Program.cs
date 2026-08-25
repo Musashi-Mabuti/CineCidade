@@ -24,3 +24,10 @@ decimal valorFinal = custoBruto - desconto;
 string nomeFormatado = nome.ToUpper();
 
 bool elegivelSessaoNoturna = quantidadeIngressos > 1 && idade >= 18;
+
+Console.WriteLine();
+Console.WriteLine("===== CINECIDADE =====");
+Console.WriteLine($"Cliente: {nomeFormatado}");
+Console.WriteLine($"Valor bruto: {custoBruto}");
+Console.WriteLine($"Valor final: {valorFinal}");
+Console.WriteLine($"Elegível para Sessão Noturna: {elegivelSessaoNoturna}");
